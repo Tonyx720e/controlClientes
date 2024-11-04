@@ -1,0 +1,6 @@
+main\controlclientes\resources\JakartaEE10Resource.class
+dominio\Persona.class
+datos\Conexion.class
+datos\PersonaDaoJDBC.class
+main\controlclientes\JakartaRestConfiguration.class
+webvistas\ServerControlador.class

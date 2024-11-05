@@ -12,7 +12,7 @@ public class PersonaDaoJDBC {
 
     private static final String SQL_SELECT = "SELECT id_persona, nombre FROM persona";
     private static final String SQL_POR_ID = "SELECT id_persona, nombre FROM persona WHERE id_persona = ?";
-    private static final String SQL_INSERT = "INSERT INTO persona (id_persona, nombre) VALUES(?,?)";
+    private static final String SQL_INSERT = "INSERT INTO persona (nombre) VALUES(?)";
     private static final String SQL_UPDATE = "UPDATE persona SET nombre= ? WHERE id_persona = ? ";
     private static final String SQL_DELETE = "DELETE FROM persona WHERE id_persona = ?";
 

@@ -3,10 +3,12 @@
         <div class="modal-content">
             <div class="modal-header bg-info text-white">
                 <h5 class="modal-title" id="agregarPersonaLabel">Agregar Personas</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
+
+
+
             </div>
             <form action="${pageContext.request.contextPath}/ServerControlador?accion=insertar" method="post" class="was-validated">
                 <div class="modal-body">

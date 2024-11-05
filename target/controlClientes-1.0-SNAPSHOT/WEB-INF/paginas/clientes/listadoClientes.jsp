@@ -24,7 +24,7 @@
                                     <td>${persona.nombre}</td>
                                     <td>
                                         <!-- Puedes agregar aquí botones de acciones estilizados -->
-                                        <button class="btn btn-danger btn-sm">Registrar</button>
+                                        
                                         <button class="btn btn-primary btn-sm">Modificar</button>
                                         <button class="btn btn-danger btn-sm">Eliminar</button>
                                     </td>

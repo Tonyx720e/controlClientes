@@ -71,7 +71,7 @@ public class ServerControlador extends HttpServlet {
     
     protected void editarPersona(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        int idPersona = Integer.parseInt(request.getParameter("idPersona"));
+        int idPersona = Integer.parseInt(request.getParameter("id_persona"));
         Persona persona = new PersonaDaoJDBC().buscar(new Persona(idPersona));
         request.setAttribute("persona", persona);
         String jspEditar="WEB-INF/paginas/clientes/editarPersona.jsp";
@@ -80,7 +80,7 @@ public class ServerControlador extends HttpServlet {
     
     protected void modificarPersona(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        int idPersona = Integer.parseInt(request.getParameter("idPersona"));
+        int idPersona = Integer.parseInt(request.getParameter("id_persona"));
         String nombre= request.getParameter("nombre");
         Persona persona = new Persona(idPersona, nombre);
         int resgistroModificados = new PersonaDaoJDBC().update(persona);

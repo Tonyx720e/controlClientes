@@ -97,7 +97,7 @@ public class PersonaDaoJDBC {
             stms = conn.prepareStatement(SQL_UPDATE);
 
             stms.setString(1, persona.getNombre());
-            stms.setInt(1, persona.getId_persona());
+            stms.setInt(2, persona.getId_persona());
 
             rows = stms.executeUpdate();
         } catch (Exception e) {

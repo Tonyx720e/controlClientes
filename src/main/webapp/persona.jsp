@@ -24,8 +24,7 @@
         <jsp:include page="WEB-INF/paginas/comunes/botonesNavegacion.jsp" />
         
         <jsp:include page="WEB-INF/paginas/clientes/listadoClientes.jsp" />
-        <jsp:include page="WEB-INF/paginas/clientes/agregarPersona.jsp" />
-        <jsp:include page="WEB-INF/paginas/clientes/editarPersona.jsp" />
+        
         <jsp:include page="WEB-INF/paginas/comunes/piePagina.jsp" />
 
     </body>

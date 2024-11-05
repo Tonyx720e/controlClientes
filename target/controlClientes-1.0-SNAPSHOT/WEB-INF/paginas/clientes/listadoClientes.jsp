@@ -23,6 +23,10 @@
                                     <th scope="row">${status.count}</th>
                                     <td>${persona.nombre}</td>
                                     <td>
+                                        <a href="${pageContext.request.contextPath}/ServerControlador?accion=editar&id_persona=${persona.id_persona}"
+                                        class="btn btn-secondary">
+                                        <i class="fas fa-angle-double-right"></i>Editar
+                                    </a>
                                         <!-- Puedes agregar aquí botones de acciones estilizados -->
                                         
                                         <button class="btn btn-primary btn-sm">Modificar</button>
@@ -37,3 +41,4 @@
         </div>
     </div>
 </section>
+<jsp:include page="agregarPersona.jsp" />

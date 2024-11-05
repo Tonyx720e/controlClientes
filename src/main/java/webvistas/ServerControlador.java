@@ -106,7 +106,7 @@ public class ServerControlador extends HttpServlet {
     
     protected void eliminarPersona(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        int idPersona = Integer.parseInt(request.getParameter("idPersona"));
+        int idPersona = Integer.parseInt(request.getParameter("id_persona"));
         Persona persona = new Persona(idPersona);
         int registroModificado = new PersonaDaoJDBC().delete(persona);
         this.accionDefault(request, response);

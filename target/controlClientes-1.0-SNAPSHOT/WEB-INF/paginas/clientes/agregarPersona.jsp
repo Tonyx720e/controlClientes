@@ -6,9 +6,6 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
-
-
-
             </div>
             <form action="${pageContext.request.contextPath}/ServerControlador?accion=insertar" method="post" class="was-validated">
                 <div class="modal-body">

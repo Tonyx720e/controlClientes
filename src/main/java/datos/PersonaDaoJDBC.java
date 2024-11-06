@@ -28,7 +28,7 @@ public class PersonaDaoJDBC {
             while (rs.next()) {
                 int id_persona = rs.getInt("id_persona");
                 String nombre = rs.getString("nombre");
-                //System.out.println(nombre);
+                System.out.println(nombre);
                 personas.add(new Persona(id_persona, nombre));
             }
         } catch (SQLException e) {
